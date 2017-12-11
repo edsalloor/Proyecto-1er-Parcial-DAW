@@ -1,0 +1,23 @@
+[
+	{
+		"titulo":"Cómo realizar una factura",
+		"video":"https://www.youtube.com/embed/3Z5VM70eprc",
+		"descripcion":"Los emprendedores tenemos que saber hacer nuestras propias facturas y es por ello que en este vídeo te voy a contar cómo hacer facturas en Excel, paso a paso, con fórmulas y de forma muy sencilla para que puedas vender tus productos o servicios fácilmente."
+	},
+	{
+		"titulo":"Cómo registrar un nuevo proveedor",
+		"video":"https://www.youtube.com/embed/4TFHZ6yeZqY",
+		"descripcion":"Un proveedor puede ser una persona o una empresa que abastece a otras empresas con existencias (artículos), los cuales serán transformados para venderlos posteriormente o directamente se compran para su venta. Estas existencias adquiridas están dirigidas directamente a la actividad o negocio principal de la empresa que compra esos elementos."
+	},
+	{
+		"titulo":"Cómo elaborar un reporte financiero",
+		"video":"https://www.youtube.com/embed/Fh0haJ1EVns",
+		"descripcion":"Los estados financieros, también denominados estados contables, informes financieros o cuentas anuales, son informes que utilizan las instituciones para dar a conocer la situación económica y financiera y los cambios que experimenta la misma a una fecha o periodo determinado. Esta información resulta útil para la Administración, gestores, reguladores y otros tipos de interesados como los accionistas, acreedores o propietarios."
+	},
+	{
+		"titulo":"Cómo emitir una orden de compra",
+		"video":"https://www.youtube.com/embed/dYmYbvG70iA",
+		"descripcion":"La orden de compra de un cliente es la confirmación de la confianza que tiene en su empresa. La gestión interna es una parte importante del proceso de venta que confirma a su cliente que ha hecho una buena elección al hacer negocios con su empresa."
+	}
+	
+]
