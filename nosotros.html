@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Red Contable</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <!-- /Bootstrap CSS -->
+    <link rel="stylesheet" href="css/barra-nav.css" />
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/mapa.css" />
+    <link rel="stylesheet" href="css/footer.css"/>
+    <!-- Importados de Bootstrap -->
+
+</head>
+ 
+<body>
+    <header>
+
+      <!-- Barra de Navegación -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <img src="img/letrar.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        <a class="navbar-brand" href="#">ed Contable</a>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="foros.html">Foros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="proyectos.html">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tutoriales.html">Tutoriales</a>
+            </li>
+            <li class="nav-ite active">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+          </form>
+        </div>
+      </nav>
+      <!-- /Barra de Navegación -->
+
+    </header>
+
+    <section class="seccion">
+      <div class="contenedor">
+        <div class="jumbotron">
+          <div class="container">
+            <h1 class="display-3">Bienvenidos a Red Contable!</h1>
+            <p>Este es un sitio web dedicado a la Contabilidad, donde profesionales o estudiantes podrán interactuar y compartir contenido.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contenedor">
+      	<h2>Riesgo País:</h2>
+      	<p class="text-justify">El riesgo país es un concepto económico que ha sido abordado académica y empíricamente mediante la aplicación de metodologías de la más variada índole: desde la utilización de índices de mercado como el índice EMBI de países emergentes de Chase-JPmorgan hasta sistemas que incorpora variables económicas, políticas y financieras. El Embi se define como un índice de bonos de mercados emergentes, el cual refleja el movimiento en los precios de sus títulos negociados en moneda extranjera. Se la expresa como un índice ó como un margen de rentabilidad sobre aquella implícita en bonos del tesoro de los Estados Unidos.	
+      		<a href="https://contenido.bce.fin.ec/resumen_ticker.php?ticker_value=riesgo_pais">Banco Central del Ecuador.</a>
+      	</p>
+      	<div id="dashboard"></div>
+      </div>
+
+      <div class="contenedor">
+        <h2>Ubicación:</h2>
+        <div id="map"></div>
+      </div>
+
+      <div class="contenedor">
+
+        <h2>Contáctanos:</h2>
+
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Correo electrónico</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingerese su correo">
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Nivel de estudios</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Profesional</option>
+              <option>Estudiante - Tercer Nivel</option>
+              <option>Estudiante - Secundaria</option>
+            </select>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input">
+              Enviar información a mi correo electrónico.
+            </label>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Mensaje</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <button type="submit" class="botonVerde btn btn-primary">Enviar Mensaje</button>
+        </form>
+
+      </div>
+
+      <div class="contenedor text-justify">
+
+        <h2>Descripción del sitio.</h2>
+        <div id="list-example" class="list-group">
+          <a class="list-group-item list-group-item-action" href="#list-item-1">Inicio</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-2">Foros</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-3">Proyectos</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-4">Tutoriales</a>
+          <a class="list-group-item list-group-item-action" href="#list-item-4">Nosotros</a>
+        </div>
+        <div data-spy="scroll" data-target="#list-example" data-offset="10" class="scrollspy-example">
+          <h4 id="list-item-1">Inicio</h4>
+          <p>Aquí se encuentran las notcias más relevantes sobre la economía nacional. Además de información relevante sobre las últimas actializaciones de la página.</p>
+          <h4 id="list-item-2">Foros</h4>
+          <p>Encontrás una versión resumida de los foros creados ordenados en orden cronológico. "Visitar foro" te redirigirá a la página del foro.</p>
+          <h4 id="list-item-3">Proyectos</h4>
+          <p>Aquí se encuentran todos los proyectos creados. Al dar clic sobre uno de ellos podrás visualizar mayor información. También puedes unirte a ellos.</p>
+          <h4 id="list-item-4">Tutoriales</h4>
+          <p>Contiene los video tutoriales para el uso de las aplicaciones contables desarrolladas por la empresa SERVYSISA.</p>
+          <h4>Nosotros</h4>
+          <p>Encontrarás más información acerca de la empresa. Además, podrás ponerte en contácto con nosotros a través de una mensaje.</p>
+        </div>
+
+      </div>
+
+    </section>
+    
+    <footer>
+      <div class="foot-bloq">
+        <address>
+          <strong>Red Contable 593 - SERVYSISA S.A.</strong>
+          <br>
+            Edificio San Lorenzo, piso 4 oficina 44
+          <br>
+            Sucre 222 y Pedro Carbo
+          <br>
+            Guayaquil, Ecuador
+          <br>
+          <abbr title="Phone">P:</abbr>
+            (593) 456-78**
+        </address>
+        <address>
+          <strong>Derechos Reservados</strong><br>
+          <a href="http://servysisa.com/">servysisa.com</a>
+        </address>
+      </div>
+        <p>Proyecto DAW</p>
+    </footer>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBp2v7Y4JecxPRCEYwqsg6J6ScV7Gs2zFE" async defer></script>
+    <script src="https://code.jquery.com/jquery.js"></script> 
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="js/mapa.js"></script>
+    <script src="js/dashboard.js"></script>
+    
+</body>
+</html>
