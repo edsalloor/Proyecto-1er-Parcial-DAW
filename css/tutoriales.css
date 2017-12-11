@@ -1,0 +1,19 @@
+.video {
+	display: inline-block;
+}
+.descripcion {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 5%;
+	width: 55%;
+	max-height: 250.5px;
+	overflow: hidden;
+}
+.descripcion > p {
+	text-align: justify;
+}
+
+.bloque {
+	margin-top: 3em;
+	margin-bottom: 3em;
+}

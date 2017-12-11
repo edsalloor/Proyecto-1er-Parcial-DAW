@@ -1,0 +1,32 @@
+#map {
+        width: 100%;
+        height: 400px;
+        background-color: grey;
+}
+
+.jumbotron {
+	background-color: rgba(0,0,0,.1);
+}
+
+.botonVerde {
+    background: #086d11;
+}
+.contenedor #list-example, .contenedor .scrollspy-example{
+	display: inline-block;
+}
+.contenedor #list-example {
+	width: 15%;
+}
+.contenedor .scrollspy-example {
+	width: 75%;
+	margin-left: 5%;
+	height: 230px;
+	overflow: auto;
+}
+#dashboard > svg, #dashboard > table {
+	display: inline-block;
+	margin-left: 3.5%;
+}
+#dashboard > table {
+	margin-bottom: 8%;
+}

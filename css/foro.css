@@ -1,0 +1,16 @@
+h2 {
+	height: 3em;
+	color: black;
+	border-radius: 3pt;
+	text-align: center;
+	padding-top: 2.5%;
+	font-weight: 600;
+}
+
+div#entradas {
+	padding-left: 5em;
+}
+
+div.card-footer {
+	text-align: right;
+}
