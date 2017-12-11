@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,300,600,700,900);
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+section {
+    background-color: white;
+}
+
+section, footer {
+	padding-left: 15%;
+	padding-right: 15%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+section:before, section:after {
+    display: block;
+}
+
+.contenedor {
+    min-height: 25rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: rgba(0,0,0,.1);
+    border-radius: 2pt;
+}
+
+.contenedor > h3 {
+	padding-right: 30px;
+    padding-left: 30px;
+}
+
+.card-deck {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.card {
+    float: left;
+    width: 33.333%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+}
+
+.card:hover {
+	opacity: 0.5;
+}
+
+.botonVerde {
+    background: #086d11;
+    border-color: #3e9b47;
+}
+
+.botonVerde:hover {
+    background: #086d11;
+    border-color: #3e9b47;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+#postsForo {
+    margin-top: 10pt;
+}
+
+#postsEncabezado {
+    background-color: #3e9b47;
+}
+
+.card {
+	cursor: pointer;
+}

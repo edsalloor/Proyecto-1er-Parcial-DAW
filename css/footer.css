@@ -1,0 +1,32 @@
+.foot-bloq {
+	padding: 1.5rem;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	border-width: .2rem;
+}
+
+.foot-bloq {
+	position: relative;
+	margin: 1rem -15px;
+	border: solid #f7f7f9;
+	border-width: .2rem;
+}
+
+address {
+	margin-bottom: 1rem;
+	font-style: normal;
+	line-height: inherit;
+}
+
+.foot-bloq::after, .foot-bloq::before {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+footer {
+	text-align: center;
+}
+
+footer 
