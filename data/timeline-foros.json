@@ -1,0 +1,65 @@
+[
+	{
+		"titulo":"Paradojas de la lógica",
+		"contenido":"Todo   lo que existe y puede ser experimentado tiene su causa en algo; por tanto, si no hay algo no puede haber causa. Pero si la experiencia nos prueba que existe algo sin que tenga una causa , tenemos que admitir que no ha sido causado sino creado, porque lo creado surge de la nada...",
+		"autor":"Discipulus",
+		"fecha":"2017-07-01",
+		"hora":"18:10",
+		"comentarios":"4",
+		"id":"1"
+	},
+	{
+		"titulo":"La nada absoluta",
+		"contenido":"No creo que halla diferencia filosófica entre “nada” y “nada absoluta”, lo de “nada absoluta” se lo leía al mismísimo Hegel, cómo término utilizado, no es por lo tanto mío. Pero creo que psicológicamente, decir “nada absoluta” aclara el concepto, esto es todo. Para ser absoluta la nada...",
+		"autor":"Doctus",
+		"fecha":"2016-03-25",
+		"hora":"18:38",
+		"comentarios":"3",
+		"id":"2"
+	},
+	{
+		"titulo":"Sobre el Lenguaje",
+		"contenido":"Lo primero que señalaría es la existencia de un elemento arbitrario en la elección de una palabra; por ejemplo, llamamos «ratones» a ciertos animales, pero la palabra «ratón» también podría ser adecuada para cualquier otro animal, ya que podría denotar algo distinto y los ratones hubiesen...",
+		"autor":"Arturo Espinosa",
+		"fecha":"2015-06-17",
+		"hora":"16:21",
+		"comentarios":"7",
+		"id":"3"
+	},
+	{
+		"titulo":"Título aleatorio",
+		"contenido":"Contenido aleatorio",
+		"autor":"Desconocido",
+		"fecha":"2015-06-17",
+		"hora":"20:41",
+		"comentarios":"0",
+		"id":"4"
+	},
+	{
+		"titulo":"Título aleatorio",
+		"contenido":"Contenido aleatorio",
+		"autor":"Desconocido",
+		"fecha":"2015-05-17",
+		"hora":"20:41",
+		"comentarios":"0",
+		"id":"5"
+	},
+	{
+		"titulo":"Título cualquiera",
+		"contenido":"Contenido cualquiera",
+		"autor":"Desconocido",
+		"fecha":"2015-05-17",
+		"hora":"20:41",
+		"comentarios":"1",
+		"id":"6"
+	},
+	{
+		"titulo":"Título salvaje",
+		"contenido":"Contenido salvaje",
+		"autor":"Desconocido",
+		"fecha":"2015-05-17",
+		"hora":"19:41",
+		"comentarios":"2",
+		"id":"7"
+	}
+]
